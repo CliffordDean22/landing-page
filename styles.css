@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.section-one {
+    background-color: black;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.header-link {
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
+
+.header-link:hover {
+    color: yellow;
+    text-shadow: #5fee00 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1  {
+    font-size: 48px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left, .content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
