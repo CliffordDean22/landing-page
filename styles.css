@@ -238,3 +238,12 @@ h4 {
 .p-fourth {
     font-size: 20px;
 }
+
+.footer {
+    background-color: black;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
