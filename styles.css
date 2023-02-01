@@ -98,8 +98,82 @@ img {
     border-style: none;
     border-radius: 5px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .sign-up-section-one:hover {
-    color: black;
+    background-color: black;
+    border: solid 1px yellow;
+    color: yellow;
 }
+
+.section-two {
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("https://wallpapercave.com/wp/wp10439396.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 25px auto 25px auto
+}
+
+.row-of-sub-genres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    gap: 20px;
+    align-items: center;
+}
+
+.sub-genre {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.progressive-house {
+    background-image: url("https://resources.tidal.com/images/d13d8317/5e11/4c19/8596/bb5ae0851ab7/640x640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tech-house {
+background-image: url("https://geo-media.beatport.com/image_size/500x500/b46749a2-336f-42f5-8c47-64b4bf95ac48.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.funky-house {
+    background-image: url("https://i1.sndcdn.com/artworks-JFk0SX5J7GegXruS-POYWQA-t500x500.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.acid-house {
+        background-image: url("https://static.roland.com/assets/images/products/gallery/rc_tb-303_acid_house_gal.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+    text-shadow: #5fee00 0 0 20px;
+}
+
